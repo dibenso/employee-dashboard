@@ -3,5 +3,5 @@ export default function Error({ error: { message } }) {
     <>
       {message}
     </>
-  )
+  );
 }
