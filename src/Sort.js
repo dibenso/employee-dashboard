@@ -42,7 +42,7 @@ export default function Sort({ employees, onChange }) {
 
   return (
     <>
-      <h2>Sort By:</h2>
+      <h4>Sort by:</h4>
       <ButtonGroup toggle>
         {radios.map((radio, idx) => (
           <ToggleButton

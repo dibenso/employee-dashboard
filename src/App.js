@@ -41,7 +41,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Employee Dashboard</h1>
+      <div style={{
+        background: "linear-gradient(180deg, rgba(255,198,181,1) 30%, rgba(110,202,175,1) 100%, rgba(159,238,126,0.6223623238357843) 100%)",
+        height: "100px"
+      }}>
+        <h1>Employee Dashboard</h1>
+      </div>
       {error && <Error error={error} />}
       {fetching && "fetching..."}
       {employees && <Dashboard employees={employees.results} />}
