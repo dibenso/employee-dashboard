@@ -30,7 +30,6 @@ function App() {
           setSemployees(data);
           setFetching(false);
           setError(null);
-          console.log(data);
         },
         fail: () => {
           setError({ message: "Unable to fetch employees" });
